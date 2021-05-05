@@ -9,7 +9,7 @@ interface DomainInfoProps {
 }
 
 const domain: DomainInfoProps = {
-  email: 'mateus_forlevesi@hotmail.com',
+  email: process.env.EMAIL_FROM,
   name: 'Equipe World'
 }
 
